@@ -4,7 +4,7 @@ GENERAL
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 #wrapper {
@@ -22,13 +22,17 @@ img {
 }
 
 h3 {
-	margin: 0 0 1em 0;
+	margin: 0 0 .2em 0;
 }
 
 p {
 	text-align: left;
 }
 
+.contact-p {
+	margin: 0 5px 5px 0;
+	font-size: 1em;
+}
 
 /**********************************
 HEADING
@@ -40,11 +44,6 @@ header {
 	padding: 5px 0 0 0;
 	background-color: #333;
 	width: 100%;
-}
-
-#logo {
-	text-align: center;
-	margin: 0;
 }
 
 h1 {
@@ -130,27 +129,10 @@ footer {
 PAGE: PORTFOLIO
 ***********************************/
 
-#gallery {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
+.portfolio-font {
+	font-size: .75em;
 
-#gallery li {
-	float: left;
-	width: 45%;
-	margin: 2.5%;
-	background-color: #f5f5f5;
-	color: #bdc3c7;
 }
-
-#gallery li a p {
-	margin: 0;
-	padding: 5%;
-	font-size: 0.75em;
-	color: #bdc3c7
-}
-
 
 
 /**********************************
@@ -159,7 +141,7 @@ PAGE: ABOUT
 
 .profile-photo {
 	display: block;
-	max-width: 150px;
+	max-width: 200px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
 }
@@ -184,18 +166,6 @@ PAGE: CONTACT
 	background-size: 20px 20px;
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-	background-image: url('../img/phone.png');
-}
-
-.contact-info li.mail a {
-	background-image: url('../img/mail.png');
-}
-
-.contact-info li.twitter a {
-	background-image: url('../img/twitter.png');
 }
 
 

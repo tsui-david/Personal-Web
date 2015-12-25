@@ -1,10 +1,6 @@
 
 @media screen and (min-width: 480px) {
-  
-  /**********************************
-  TWO COLUMN LAYOUT
-  ***********************************/
-  
+
   #primary {
     width: 50%;
     float: left;
@@ -15,24 +11,6 @@
     float: right;
   }
   
-
-  
-  /**********************************
-  PAGE: PORTFOLIO
-  ***********************************/
-  
-  #gallery li {
-    width: 28.3333%;
-  }
-  
-  #gallery li:nth-child(4n) {
-    clear: left;
-  }
-  
-  /**********************************
-  PAGE: ABOUT
-  ***********************************/
-  
   .profile-photo {
     float: left;
     margin: 0 5% 80px 0;
@@ -42,17 +20,6 @@
 
 @media screen and (min-width: 660px) {
 
-  /**********************************
-  HEADER
-  ***********************************/
-  
-  #logo {
-    float: left;
-    margin-left: 5%;
-    text-align: left;
-    width: 45%;
-  }
-  
   h1 {
     font-size: 2.5em;
   }

@@ -1,35 +1,25 @@
-/**********************************
-COLORS
-***********************************/
 
-/* site body */
 body {
   background-color: #fff;
-  color: #999;
+  color: #2B303B;
 }
 
-/* green header */
 header {
   background: #333;
   border-color: #333;
 }
 
-/* nav background on mobile */
 nav {
   background: #333;
 }
 
-/* logo text */
 h1, h2 {
   color: #333;
 }
 
-/* links */
 a {
-  color: #333;
+  color: #006666;
 }
-
-/* selected nav link */
 nav a:hover {
   background-color: #FFD700;
 }
@@ -38,4 +28,8 @@ a.active {
 }
 li :hover {
 	color: #000;
+}
+
+.htitle {
+	color: #333;
 }
